@@ -18,7 +18,7 @@ jobs:
           name: "smoke test"
           command: |
             URL="https://blog.udacity.com/"
-            if culr -s --head ${URL}
+            if curl -s --head ${URL}
             then
               return 0
             else
