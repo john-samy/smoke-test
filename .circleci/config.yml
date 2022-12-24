@@ -22,7 +22,7 @@ jobs:
             then
               return 0
             else
-              return 
+              return 1
 workflows:
   myworkflow:
     jobs:
