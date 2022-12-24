@@ -15,7 +15,7 @@ jobs:
     steps:
       - run:
           command: |
-            ping 8.8.8.8
+            sudo ping 8.8.8.8
       - checkout
       - run: apk add --update curl
       - run:
