@@ -22,4 +22,8 @@ jobs:
             then
               return 0
             else
-              return 1
+              return 
+workflows:
+  myworkflow:
+    jobs:
+      - smoke_test 
